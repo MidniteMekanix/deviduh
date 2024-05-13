@@ -1,15 +1,13 @@
 module.exports = async (kernel) => {
-  let script = {
+  const script = {
     daemon: true,
     run: [{
       method: "shell.run",
       params: {
         path: "app",
         venv: "env",
-        env: { },
-        message: [
-          "python devika.py"
-        ],
+        env: {},
+        message: ["python devika.py"],
         on: [{ "event": "/Devika is up and running/i", "done": true }]
       }
     }, {
@@ -31,6 +29,9 @@ module.exports = async (kernel) => {
         name: "Local Sharing"
       }
     }]
-  }
-  return script
+  };
+
+  // Additional error handling could be implemented here
+
+  return script;
 }
