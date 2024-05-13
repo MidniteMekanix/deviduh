@@ -1,0 +1,51 @@
+flask
+flask-cors
+toml
+urllib3
+requests
+colorama
+fastlogging
+Jinja2
+mistletoe
+markdownify
+pdfminer.six
+playwright
+pytest-playwright
+tiktoken
+ollama
+openai
+anthropic
+google-generativeai
+sqlmodel
+keybert
+GitPython
+netlify-py
+Markdown
+xhtml2pdf
+mistralai
+Flask-SocketIO
+eventlet
+groq
+duckduckgo-search
+orjson
+gevent
+gevent-websocket
+
+# AI and Machine Learning Libraries
+torch
+torchvision
+torchaudio
+transformers
+tensorboard
+optuna
+torchserve
+torch-model-archiver
+onnx
+onnxruntime
+nvidia-dali-cuda110  # Ensure CUDA version matches your system requirements
+albumentations
+wandb  # Weights & Biases
+mlflow
+
+# Additional Libraries
+pytest  # If using pytest for tests
